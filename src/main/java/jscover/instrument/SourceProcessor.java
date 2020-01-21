@@ -363,7 +363,7 @@ import static com.google.javascript.jscomp.parsing.Config.RunMode.KEEP_GOING;
 import static java.lang.String.format;
 
 //Function Coverage added by Howard Abrams, CA Technologies (HA-CA) - May 20 2013
-class SourceProcessor {
+public class SourceProcessor {
     private static final Logger logger = Logger.getLogger(SourceProcessor.class.getName());
     private static final String initLine = "  _$jscoverage['%s'].lineData[%d] = 0;\n";
 
